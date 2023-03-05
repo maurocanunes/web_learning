@@ -1,0 +1,78 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(background_image.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: #AA3939;
+/*	text-align: center;*/
+	border: 5px solid rgba(255, 170, 170, 0.5);
+	cursor: pointer;
+}
+
+h2 p { /*it selects all the p inside h2*/
+	color: #AA3939;
+	text-align: left;
+	border: 5px solid rgba(0, 255, 0, 0.5);
+	cursor: pointer;
+}
+
+h2 > p { /*it selects all the p with parents h2*/
+	color: #AA3939;
+	text-align: right;
+	border: 5px solid rgba(0, 0, 255, 0.5);
+	cursor: pointer;
+}
+
+h2 + p
+ { /*it selects all the p right after h2*/
+	color: #AA3939;
+	text-align: center;
+	border: 5px dashed; color: yellow;
+	cursor: pointer;
+}
+
+p {
+	line-height: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: 'Poiret One', cursive;
+/*	color: pink /*!important ----> it ignores all the rest and uses this*/;*/
+}
+
+img {
+	float: left;
+}
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child/*last-child*/{
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}

@@ -1,0 +1,28 @@
+h2 {
+	color: blue;
+}
+
+
+
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 5rem; /*using rem it
+		goes 5 times bigger than the root element in this case the html element
+	*/
+	/*5em;*//*it says to the font size to be 
+		5 times bigger than the previus (p) font size
+	*/
+}
+
+/*.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px; /*top,right,bottom,left*/
+	/*margin: 0px 20px; /*top-bottom, right-left*/
+	/*width: 33px;
+	height: 55px;
+/*}
+*/
